@@ -95,6 +95,23 @@ p {
     margin-bottom: 0;
 }
 
+.boxes {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -258,7 +275,7 @@ footer nav a {
 .bottom-content-about {
     display: flex;
     flex-direction: column;
-    padding: 3% 2%;
+    padding: 3% 4%;
     width: 100%;
     justify-content: space-around;
 }
