@@ -116,14 +116,16 @@ p {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+
 }
 
 .bottom-content .text-container {
     padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+    width: 30%;
+    display: flex;
+    flex-direction: column;;
 }
 
 footer {
@@ -253,7 +255,7 @@ footer nav a {
     border: 2px solid black;
 }
 
-.bottom-content {
+.bottom-content-about {
     display: flex;
     flex-direction: column;
     padding: 3% 2%;
