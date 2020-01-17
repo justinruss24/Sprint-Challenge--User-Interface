@@ -206,3 +206,59 @@ footer nav a {
 #box10 {
     background-color: dodgerblue;
 }
+/*ABOUT PAGE CSS STARTS HERE*/
+
+/*HEADER IMG*/
+.about-head-img {
+    margin-top: 2%;
+}
+
+.about-section{
+    padding: 2%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 1%;
+}
+
+/*Main content ABOUT*/
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.content {
+    border-bottom: 1px dashed black;;
+    width: 45%;
+    padding: 2% 0;
+    margin: 2% 0;
+}
+.content img {
+    width: 100%;
+    display: flex;
+}
+.content p {
+    padding-bottom: 2%;
+}
+
+.content h2 {
+    margin-top: 4%;
+}
+
+.learn-btn {
+    border-radius: 8px;
+    padding: 2% 7%;
+    font-size: 12px;
+    margin-top: 3%;
+    border: 2px solid black;
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: column;
+    padding: 3% 2%;
+    width: 100%;
+    justify-content: space-around;
+}
+
+/*FOOTER CSS*/
